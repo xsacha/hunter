@@ -2,6 +2,7 @@
 # All rights reserved.
 
 cmake_minimum_required(VERSION 3.0)
+cmake_policy(SET CMP0057 NEW)
 project(Hunter)
 
 include(ExternalProject) # ExternalProject_Add
@@ -33,7 +34,7 @@ else()
   set(configure_command "./config")
 endif()
 
-if("-fPIC" IN_LIST CMAKE_CXX_FLAGS)
+if(";${CMAKE_CXX_FLAGS};" MATCHES ";-fPIC;") 
     set(configure_opts ${configure_opts} -fPIC)
 endif()
 
