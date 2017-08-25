@@ -36,6 +36,7 @@ hunter_pick_scheme(DEFAULT OpenBLAS)
 hunter_cacheable(OpenBLAS)
 hunter_download(
     PACKAGE_NAME OpenBLAS
+    PACKAGE_INTERNAL_DEPS_ID "2"
     PACKAGE_UNRELOCATABLE_TEXT_FILES
     "lib/cmake/openblas/OpenBLASConfig.cmake"
 )
