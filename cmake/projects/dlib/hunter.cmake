@@ -17,7 +17,7 @@ hunter_add_version(
     URL
     "https://github.com/xsacha/dlib/archive/v19.8-xsacha2.tar.gz"
     SHA1
-    cbcded38727cb509d7ba6eaf51cd69a6f4bb5817
+    40808d0d6b7cf31e6505a580ab6eb3d8a921730c
 )
 
 hunter_add_version(
