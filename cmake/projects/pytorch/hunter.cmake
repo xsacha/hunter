@@ -10,7 +10,7 @@ hunter_add_version(
     PACKAGE_NAME pytorch
     VERSION "1.0.1-p0"
     URL "https://github.com/xsacha/pytorch/archive/v1.0.1-p0.tar.gz"
-    SHA1 0d608896f089eb6d2508f145e5e5039f8e473cb0
+    SHA1 44d60a5205ebde92322a317e49dc6357c27a2aff
 )
  
 hunter_cmake_args(pytorch CMAKE_ARGS
