@@ -27,6 +27,17 @@ hunter_add_version(
     PACKAGE_NAME
     OpenCV
     VERSION
+    "3.4.6-xsacha"
+    URL
+    "https://github.com/xsacha/opencv/archive/v3.4.6-xsacha.tar.gz"
+    SHA1
+    b9bee0d3c2a5f909699b4ff5f3e33e664c481db5
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenCV
+    VERSION
     "3.4.3-p2"
     URL
     "https://github.com/hunter-packages/opencv/archive/v3.4.3-p2.tar.gz"
