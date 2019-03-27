@@ -17,6 +17,17 @@ hunter_add_version(
     PACKAGE_NAME
     Eigen
     VERSION
+    "3.3.8-master"
+    URL
+    "https://github.com/eigenteam/eigen-git-mirror/archive/79646971325e2f5f8f679b1e9002743589623e0b.zip"
+    SHA1
+    60471b0afc0cd16daa2ca9a4a2f8fd825f1b9fb6
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Eigen
+    VERSION
     "3.3.7"
     URL
     "https://github.com/eigenteam/eigen-git-mirror/archive/3.3.7.tar.gz"
