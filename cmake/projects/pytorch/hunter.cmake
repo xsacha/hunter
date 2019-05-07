@@ -8,9 +8,9 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME pytorch
-    VERSION "1.1.0-cb39bd9"
-    URL "https://github.com/xsacha/pytorch/archive/v1.1.0-cb39bd9.tar.gz"
-    SHA1 072aaf576fe3e293f07ce09c74b554cd0de540bd
+    VERSION "1.1.0-23ba056"
+    URL "https://github.com/xsacha/pytorch/archive/v1.1.0-23ba056.tar.gz"
+    SHA1 629bd5d227463b9069cf9dfb739abf2adb30635b
 )
  
 hunter_cmake_args(pytorch CMAKE_ARGS
